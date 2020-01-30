@@ -44,7 +44,7 @@ Arguments :
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Sources:
   - https://medium.com/@mehulgupta_7991/image-labelling-for-yolo-using-yolo-mark-c58eb75b77fd

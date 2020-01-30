@@ -25,6 +25,8 @@ opencv
 
 ## How to use
 
+Annotate your images with VoTT. Export with the format "Comma Separated Values (CSV)". Use this command :
+
 ```
 python convert_csv_to_yolo.py 
         --image_folder <path_to_your_image_directory> 

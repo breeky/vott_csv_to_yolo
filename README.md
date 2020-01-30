@@ -16,6 +16,13 @@ The training/validation set for Yolo models has the following components:
 
 **HEIGHT** is the height of the object that has to be detected divided by the Image_height
 
+## Requirements
+
+```
+pandas
+opencv
+```
+
 ## How to use
 
 ```
@@ -34,6 +41,10 @@ Arguments :
     - output_folder, default="output"
     
     - copy_images (optional), default=True : copy images from the image folder to the output folder
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Sources:
   - https://medium.com/@mehulgupta_7991/image-labelling-for-yolo-using-yolo-mark-c58eb75b77fd

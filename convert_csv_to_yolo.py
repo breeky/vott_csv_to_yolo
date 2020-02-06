@@ -98,7 +98,8 @@ if __name__ == "__main__":
 
     # write yolo data
     for name in csv.image.unique():
-        shutil.copy(os.path.join(FLAGS.image_folder, name), os.path.join(FLAGS.output_folder, name))
+        if FLAGS.copy_images:
+            shutil.copy(os.path.join(FLAGS.image_folder, name), os.path.join(FLAGS.output_folder, name))
         with open(os.path.join(FLAGS.output_folder, os.path.splitext(name)[0]) + ".txt", "w") as output:
             for i, row in csv[csv.image == name].iterrows():
                 output.write(str(row["code"]))
